@@ -7,10 +7,9 @@ namespace QFramework.Example
 {
 	public partial class GameRoot : ViewController
 	{
-	    private Transform transform;
 		void Start()
 		{
-		    transform = this.Player1.GetComponent<Player1>().PlayerAnimation;
+			Log.LogInfo(this.Player1.PlayerAnimation);
 		}
 	}
 }

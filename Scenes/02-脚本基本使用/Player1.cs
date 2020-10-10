@@ -7,10 +7,9 @@ namespace QFramework.Example
 {
 	public partial class Player1 : ViewController
 	{
-	    private Transform transform;
 		void Start()
 		{
-		    transform = this.PlayerAnimation;
+			// Code Here
 		}
 	}
 }
